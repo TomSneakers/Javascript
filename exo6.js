@@ -1,3 +1,4 @@
+// fonction qui permet selon le nom de la colone choisit d'extrait ses contenus
 function GetValues(array, key){
     let values = [];
     for(let i = 0; i < array.length; i++){
