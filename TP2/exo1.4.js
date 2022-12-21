@@ -1,7 +1,7 @@
 // import du module fs
 const fs = require("fs");
   
-let directory_name = "exo2";
+let directory_name = "./";
   
 // fonction permettant de donner les noms des fichier du repertoire exo2
 
