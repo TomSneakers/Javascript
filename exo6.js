@@ -14,3 +14,4 @@ const array = [
 ];
 
 console.log(GetValues(array, "age"));
+console.log(GetValues(array, "name"));

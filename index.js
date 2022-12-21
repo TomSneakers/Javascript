@@ -25,7 +25,7 @@ console.log (result)
 
 //TP1
 //EXO1
-function sum(numberOne, numberTwo) {
+/**function sum(numberOne, numberTwo) {
     // retourne la somme des deux paramètres
    return numberOne + numberTwo;
  }
@@ -47,3 +47,12 @@ function getMaxNumber(numbers) {
     return max;
 } 
 const result = getMaxNumber(myArray1)
+*/
+const fs = require ('fs')
+fs.readFile('test.txt','utf-8',(err,data) => {
+    if (err) {
+        console.log(err)
+        return
+    }
+    console.log(data)
+})
