@@ -62,3 +62,10 @@ function getResult(bet) {
     return "loose";
   }
 }
+//fonction qui permet de sauvegarder le nom le choix et le resultat du joueur 
+function savePartie(name, bet, result) {
+  const line = `${name}  |  ${bet}  |  ${result}\n`;
+  appendFile('file.txt', line, err => {
+    if (err) throw err;
+  });
+}
