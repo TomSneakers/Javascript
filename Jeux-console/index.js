@@ -2,6 +2,7 @@
 import { createInterface } from 'readline';
 import { appendFile } from 'fs';
 import chalk from 'chalk';
+
 //création de la variable pour les entrées
 const rl = createInterface({
   input: process.stdin,
@@ -69,3 +70,11 @@ function savePartie(name, bet, result) {
     if (err) throw err;
   });
 }
+//fonctioin qui permet de rejouer ou de sortir du jeux selon l'entrer du joueur
+function exitOrReplay() {
+  rl.question("rejouer (o / n) ?", answer => {
+    if (answer == "o") jeu();
+    else if (answer == "n") process.exit(0);
+  });
+}
+jeu();

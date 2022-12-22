@@ -7,3 +7,4 @@ tom  |  pile  |  win
 tom  |  pile  |  loose
 tom  |  pile  |  loose
 tom  |  face  |  win
+tom  |  pile  |  loose
