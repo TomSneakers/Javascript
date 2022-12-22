@@ -1,10 +1,1 @@
-Nino  |  face  |  win
-Nino  |  face  |  loose
-tom  |  pod  |  loose
-tom  |  ,fzel  |  loose
-tom  |  pile  |  win
-tom  |  pile  |  win
-tom  |  pile  |  loose
-tom  |  pile  |  loose
-tom  |  face  |  win
 tom  |  pile  |  loose
