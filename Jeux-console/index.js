@@ -15,3 +15,10 @@ console.log (`
 ║╚═╩╩═╩╩╩═╩═╩╩╩══╩═╝║
 ╚═══════════════════╝`)
 
+//premiere fonction du jeu
+function jeu() {
+  //demande d'entrer le nom du joueur
+  rl.question(chalk.greenBright("Quel est votre nom ?"), answer => {
+    launchGame(answer);
+  })
+}
